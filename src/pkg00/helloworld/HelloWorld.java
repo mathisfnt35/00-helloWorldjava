@@ -9,6 +9,7 @@ package pkg00.helloworld;
  */
 import java.util.Scanner;
 public class HelloWorld {
+    
     public static void main(String[] args) {
         /* Exo 2
         
@@ -26,7 +27,7 @@ public class HelloWorld {
         y = x ;
         x = temp ;
         System.out.println("Apres permutation : x="+x+" y="+y); */
-        /*
+        /* EXO 5
         Scanner wp = new Scanner(System.in);
         System.out.println("Saisir a :");
         int a = wp.nextInt() ;
@@ -34,6 +35,20 @@ public class HelloWorld {
         int b = wp.nextInt() ;
         int temp = (a*b)*2 ; 
         System.out.println(temp); */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Saisir le mot de passe : ");
+        String texte = sc.nextLine();
+        String mdp = "admin123" ;
+        while (!texte.equals(mdp))
+        {
+            System.out.print("Mot de passe : ");
+            texte = sc.nextLine();
+        }
+
+        
+        
+        
+        
         
         
         
