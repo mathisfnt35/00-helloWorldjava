@@ -26,6 +26,16 @@ public class HelloWorld {
         y = x ;
         x = temp ;
         System.out.println("Apres permutation : x="+x+" y="+y); */
+        Scanner wp = new Scanner(System.in);
+        System.out.println("Saisir a :");
+        int a = wp.nextInt() ;
+        System.out.println("Saisir b :");
+        int b = wp.nextInt() ;
+        int temp = (a*b)*2 ; 
+        System.out.println(temp);
+        
+        
+        
     }
     
 }
